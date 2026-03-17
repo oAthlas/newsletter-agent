@@ -7,21 +7,35 @@ from imap_tools import MailBox, AND, OR
 sys.stdout.reconfigure(encoding='utf-8')
 
 load_dotenv()
-MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
-MAIL_USERNAME = os.getenv("MAIL_USERNAME")
+def get_recent_newsletters():
+    MAIL_PASSWORD = os.getenv("MAIL_PASSWORD")
+    MAIL_USERNAME = os.getenv("MAIL_USERNAME")
 
-REMETENTES = [
-    "newsletter@mail.techdrop.news",
-]
+    REMETENTES = [
+        "newsletter@mail.techdrop.news",
+    ]
 
+    since_date = (datetime.now() - timedelta(days=1)).date()
+    
+    newsletters = []
 
-since_date = (datetime.now() - timedelta(days=1)).date()
+    with MailBox("imap.gmail.com").login(MAIL_USERNAME, MAIL_PASSWORD, "INBOX") as mb:
+        for msg in mb.fetch(
+            AND(
+                OR(from_=REMETENTES),
+                date_gte=since_date
+            )
+        ):
+            newsletters.append({
+                "subject": msg.subject,
+                "date": msg.date,
+                "text": msg.text
+            })
+            
+    return newsletters
 
-with MailBox("imap.gmail.com").login(MAIL_USERNAME, MAIL_PASSWORD, "INBOX") as mb:
-    for msg in mb.fetch(
-        AND(
-            OR(from_=REMETENTES),
-            date_gte=since_date
-        )
-    ):
-        print(msg.subject, msg.date, msg.text)
+if __name__ == "__main__":
+    # Testando a função diretamente neste arquivo
+    emails = get_recent_newsletters()
+    for email in emails:
+        print(f"Encontrado: {email['subject']} ({email['date']})")

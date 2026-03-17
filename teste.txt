@@ -1,0 +1,37 @@
+Regras do Blackjack
+No Blackjack, todos jogam contra o dealer. Os jogadores recebem todas as cartas viradas para cima, e a primeira carta do dealer também fica virada para cima, enquanto a segunda fica virada para baixo. O objetivo do jogo é chegar o mais perto possível de 21 do que o dealer, sem ultrapassar esse valor. Se uma mão ultrapassar 21, é chamada de "estouro" ou "quebra", e a aposta é perdida. No Blackjack, Valetes, Damas, Reis e 10 valem 10. Um Ás pode valer 1 ou 11. Todas as outras cartas são jogadas com seu valor nominal.
+
+Ao receber suas duas primeiras cartas, você pode "parar" ou "pedir carta". "Parar" significa que você acha que está perto o suficiente de 21 e não deseja mais cartas, indicando isso com um gesto de mão. Se quiser receber outra carta ou "pedir carta", bata ou risque a mesa atrás da sua aposta com o dedo. Em nenhuma das situações você tocará nas cartas; tudo será comunicado por meio de sinais com as mãos. Você pode comprar quantas cartas quiser até chegar perto de 21 ou até "estourar".
+
+Se a sua mão estiver mais perto de 21 do que a do crupiê, você ganha e recebe um valor igual à sua aposta inicial. Se a sua mão for menor que a do crupiê, você perde. Se a mão do crupiê "estourar" ou "quebrar", você também ganha. Em caso de empate, sua aposta permanece na mesa.
+
+Se suas duas cartas iniciais somarem 21, ou se você tiver um Ás com um 10, Valete, Dama ou Rei, você tem um Blackjack. O Blackjack paga 6 para 5 ou 3 para 2, dependendo da variante que você está jogando.
+
+No jogo 21, o jogador tem muitas opções para escolher:
+
+ 
+
+Separando pares
+Se as suas duas primeiras cartas tiverem o mesmo valor numérico, você pode dividi-las em duas mãos. A aposta da segunda mão deve ser igual à aposta original. Se o par dividido for de ases, você está limitado a um descarte de uma carta em cada mão.
+
+
+ 
+
+Redobrando a aposta
+No blackjack, você pode dobrar a aposta após receber suas duas primeiras cartas. Você pode optar por apostar um valor adicional, que não poderá exceder o valor da aposta inicial. Ao dobrar a aposta, você receberá apenas mais uma carta.
+ 
+
+Seguro
+Se a carta aberta do crupiê for um Ás, você pode optar por fazer um seguro. O seguro no blackjack é uma aposta de que o crupiê tem um blackjack. Você pode apostar até metade da sua aposta original. As apostas de seguro pagam 2 para 1 se o crupiê tiver um blackjack, mas perdem em todos os outros casos.
+ 
+
+Render
+Os jogadores têm a opção de desistir de metade da sua aposta inicial após receberem as duas primeiras cartas. Se desistirem das cartas, o crupiê ficará com metade da aposta. (Nota: A opção de desistir não está disponível no jogo Double Deck.)
+ 
+
+Blackjack no Estádio
+O Stadium Blackjack conecta você a até duas mesas de jogos ao vivo no mesmo terminal de jogador do cassino, com uma aposta mínima de apenas US$ 5 por mão. Uma tela sensível ao toque com duas abas coloridas permite alternar entre os jogos e visualizar os resultados ao vivo de cada um. Essa experiência de jogo híbrida e repleta de ação oferece a oportunidade de apostar simultaneamente em até dois jogos com apenas um toque, aumentando ainda mais a emoção.
+
+Para fazer sua aposta, escolha o valor que deseja apostar tocando nas fichas de cassino na parte inferior da tela. Para confirmar sua aposta, toque no círculo de aposta mais próximo de você. Apostas, ganhos e créditos restantes podem ser visualizados na parte inferior esquerda da tela. Ao iniciar o jogo, uma mão de Blackjack é distribuída para todos os jogadores ativos, exceto para o crupiê, que recebe apenas uma carta aberta.
+
+À medida que os jogadores decidem se param ou estouram, a mão do carteador é completada de acordo com a decisão de cada jogador. Por exemplo, enquanto um jogador pode parar, enviando as cartas seguintes para a mão do carteador, outro pode pedir carta e receber essas cartas para o seu total, deixando cada mão a critério do jogador.
