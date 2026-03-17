@@ -13,6 +13,8 @@ def get_recent_newsletters():
 
     REMETENTES = [
         "newsletter@mail.techdrop.news",
+        "contato@thenewscc.com.br",
+        "news@alphasignal.ai",
     ]
 
     since_date = (datetime.now() - timedelta(days=1)).date()
