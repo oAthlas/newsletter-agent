@@ -37,7 +37,6 @@ def get_recent_newsletters():
     return newsletters
 
 if __name__ == "__main__":
-    # Testando a função diretamente neste arquivo
     emails = get_recent_newsletters()
     for email in emails:
         print(f"Encontrado: {email['subject']} ({email['date']})")
