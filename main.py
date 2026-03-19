@@ -31,7 +31,7 @@ def get_recent_newsletters():
             newsletters.append({
                 "subject": msg.subject,
                 "date": msg.date,
-                "text": msg.text
+                "text": msg.html if msg.html else msg.text
             })
             
     return newsletters
