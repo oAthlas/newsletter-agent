@@ -40,3 +40,6 @@ if __name__ == "__main__":
     emails = get_recent_newsletters()
     for email in emails:
         print(f"Encontrado: {email['subject']} ({email['date']})")
+    
+    print("MAIL_USERNAME:", os.getenv("MAIL_USERNAME"))
+    print("MAIL_PASSWORD existe?", os.getenv("MAIL_PASSWORD") is not None)
