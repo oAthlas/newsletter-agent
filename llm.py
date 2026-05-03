@@ -57,7 +57,7 @@ if __name__ == "__main__":
                 
                 msg = EmailMessage()
                 hoje = datetime.now().strftime("%d/%m/%Y")
-                msg["Subject"] = f"[RESUMO LLM] Todas as Newsletters de {hoje}"
+                msg["Subject"] = f"[NEWSLETTER AGENT] Newsletters do dia {hoje}"
                 msg["From"] = MAIL_USERNAME
                 msg["To"] = MAIL_ADDRESS
                 
