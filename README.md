@@ -37,8 +37,8 @@ Consolida o conteúdo de todas as newsletters coletadas e envia para o **Google 
 ## 📧 Saída
 
 Um e-mail contendo:
-- **Subject**: `[RESUMO LLM] Todas as Newsletters de DD/MM/YYYY`
-- **Corpo**: Resumo em HTML com tópicos agrupados tematicamente
+- **Subject**: `[Resumo Diário] Newsletters de DD/MM/YYYY`
+- **Corpo**: Resumo conceitual em HTML com tópicos agrupados, bullets e emojis para leitura rápida
 - **Formato**: Puro HTML, renderizável em qualquer cliente de e-mail
 
 ## ✨ Diferenciais
