@@ -29,3 +29,4 @@ jobs:
           MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
           MAIL_ADDRESS: ${{ secrets.MAIL_ADDRESS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NEWSLETTER_SENDERS: ${{ secrets.NEWSLETTER_SENDERS }}
